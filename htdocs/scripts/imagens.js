@@ -1,5 +1,6 @@
 const principalDestaques = document.querySelector('.principal__destaques')
 const principalBrasil = document.querySelector('.principal__brasil')
+const principalMundo = document.querySelector('.principal__mundo')
 
 
 async function loadingImages() {
@@ -37,6 +38,22 @@ async function loadingImages() {
         divPost.classList.add('brasil')
         principalBrasil.appendChild(divPost);
     }
+
+        let mundo = dados.section[2]
+
+        for (let post of mundo.data) {
+            const divPost = document.createElement('div');
+            divPost.innerHTML = `
+        <img src = "assets/media/${post.image}">
+        <div class="legenda">
+        <label> ${post.label}</label><br>  
+        <h1 class="legenda__titulo">${post.title}</h1>   
+        <p> ${post.description}</p><br> 
+        </div>
+        `
+            divPost.classList.add('mundo')
+            principalMundo.appendChild(divPost);
+        }
 
 
 

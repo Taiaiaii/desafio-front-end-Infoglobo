@@ -241,13 +241,13 @@ grid-column: 3/-1;
      font-size: 1.6em;
      margin-left: 1.2%;
 }
- .principal__brasil {
+ .principal__brasil, .principal__mundo {
     display: flex;
     margin:0 8%;
     justify-content: center;
  }
 
- .brasil {
+ .brasil, .mundo {
       padding: 1%;
     flex-basis: content;
     
@@ -262,4 +262,16 @@ grid-column: 3/-1;
     color:#004861;
     text-transform: uppercase;
     font-size: 0.7em;
+ }
+
+ .faixa-branca {
+    display: flex;
+    justify-content:flex-end;
+    text-transform: uppercase;
+    color:#004861;
+    font-size: 1.2em;
+    border-bottom: solid 0.5px #cccccc;
+    border-top: solid 0.5px #cccccc;
+    padding: 0.5%;
+    margin: 1% 2% 5%;
  }
