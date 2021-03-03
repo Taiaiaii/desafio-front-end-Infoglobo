@@ -18,3 +18,7 @@ Rode a aplicação com `npm start`
 ```
 A aplicação estará acessível através do endereço http://localhost:3000/
 ```
+
+## Deploy
+
+Deployado no gitHub pages. [LINK](https://taiaiaii.github.io/desafio-front-end-Infoglobo/)
