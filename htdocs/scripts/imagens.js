@@ -1,13 +1,29 @@
-const main = document.querySelector('.principal')
 const destaques = document.querySelector('.principal__destaques')
 
-main.addEventListener('loadstart', async function(){
-    debugger;
-        const resposta = await fetch ('data.jason');
-        let main= await resposta.json()
+async function loadingImages() {
+    const resposta = await fetch('scripts/data.json');
+    let dados = await resposta.json()
 
-        for (let post of main) {
-            const divPost = document.createElement('div');
-            divPost.innerHTML = post.image;
-        }
-});
+    let main = dados.section[0]
+
+    for (let post of main.data) {
+        // let classe = "desta-principal";
+        // if(post == "brasil"){
+        //     classe = 'destaque-brasil'
+        // }
+        
+        const divPost = document.createElement('div');
+        divPost.innerHTML = `
+        <img src = "assets/media/${post.image}">
+        <div class="legenda">
+        <label> ${post.label}</label><br>  
+        <h1 class="legenda__titulo">${post.title}</h1>   
+        <p> ${post.description}</p><br> 
+        </div>
+        ` 
+        divPost.classList.add('destaques')
+       destaques.appendChild(divPost);
+    }
+
+};
+loadingImages()
