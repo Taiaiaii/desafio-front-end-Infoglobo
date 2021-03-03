@@ -1,16 +1,17 @@
 body {
    font-family: 'Rubik',
-   sans-serif;
-    font-weight: 1000;
+      sans-serif;
+   font-weight: 1000;
 
 }
+
 .strong {
    font-family: 'Titillium Web',
-   sans-serif;
+      sans-serif;
    font-size: 1em;
    line-height: 1em;
    font-weight: 1000;
-   padding:1%;
+   padding: 1%;
 }
 
 .principal {
@@ -20,7 +21,7 @@ body {
 
 
 .cabecalho__titulo,
-.rodape__titulo{
+.rodape__titulo {
    text-transform: uppercase;
    letter-spacing: -3px;
 }
@@ -32,12 +33,12 @@ body {
    padding: 1%;
    font-size: 4em;
    position: relative;
-   
+
 }
 
 .cabecalho__dois-pontos {
-   color:#d5e11f;
-  
+   color: #d5e11f;
+
 }
 
 .cabecalho__menu {
@@ -45,7 +46,7 @@ body {
    left: 2%;
    top: 42%;
 
-   
+
 }
 
 .cabecalho__menu rect {
@@ -54,12 +55,12 @@ body {
 
 .rodape {
    background-color: #d5e11f;
-   color:#004861;
+   color: #004861;
    display: flex;
    justify-content: space-between;
    padding: 5%;
-   font-size:2em;
-  
+   font-size: 2em;
+
 }
 
 .rodape__dois-pontos {
@@ -73,66 +74,69 @@ body {
    text-align: right;
    padding-top: 2%;
    font-family: 'Roboto',
-   sans-serif;
+      sans-serif;
    text-transform: uppercase;
 }
+
 /* -------------------imagens carregadas sec1--------------------- */
 .principal__destaques {
    display: grid;
-   grid-template-columns: repeat(4, 1fr) ;
+   grid-template-columns: repeat(4, 1fr);
    grid-template-rows: 1fr 0.3fr 0.3fr;
-   
+
 }
 
-.principal__destaques >:nth-child(1) {
+.principal__destaques>:nth-child(1) {
    grid-column: 1/3;
- 
+
 }
 
-.principal__destaques > :nth-child(2) {
+.principal__destaques> :nth-child(2) {
    grid-column: 3/-1;
 }
 
-.principal__destaques>:nth-child(1) ,
+.principal__destaques>:nth-child(1),
 .principal__destaques>:nth-child(2) {
    position: relative;
    margin: 5% 5% 0;
 }
 
-.principal__destaques>:nth-child(1)> img,
-.principal__destaques>:nth-child(2)> img {
- width: 100%;
- display: block;
+.principal__destaques>:nth-child(1)>img,
+.principal__destaques>:nth-child(2)>img {
+   width: 100%;
+   display: block;
 }
 
-.principal__destaques>:nth-child(1)> .legenda,
-.principal__destaques>:nth-child(2)> .legenda {
+.principal__destaques>:nth-child(1)>.legenda,
+.principal__destaques>:nth-child(2)>.legenda {
    position: absolute;
    bottom: 20%;
    width: 100%;
    font-size: 0.8em;
-   line-height:1.2em;
+   line-height: 1.2em;
    color: white;
-   padding:5%;
+   padding: 5%;
 }
 
-.principal__destaques>:nth-child(1)>.legenda > .legenda__titulo,
-.principal__destaques>:nth-child(2)>.legenda > .legenda__titulo{
+.principal__destaques>:nth-child(1)>.legenda>.legenda__titulo,
+.principal__destaques>:nth-child(2)>.legenda>.legenda__titulo {
    padding: 1% 0;
 
 }
-.principal__destaques > :nth-child(3) {
-grid-column: 1/3;
-   
+
+.principal__destaques> :nth-child(3) {
+   grid-column: 1/3;
+
 }
-.principal__destaques > :nth-child(4) {
-grid-column: 3/-1;
+
+.principal__destaques> :nth-child(4) {
+   grid-column: 3/-1;
 }
 
 .principal__destaques>:nth-child(3),
 .principal__destaques>:nth-child(4) {
    display: flex;
-   align-items:stretch;
+   align-items: stretch;
    margin: 2% 5% 0;
 }
 
@@ -142,7 +146,7 @@ grid-column: 3/-1;
    height: 100%;
    padding: 2%;
    font-size: 1.1em;
-   line-height: 1.2em; 
+   line-height: 1.2em;
 }
 
 .principal__destaques>:nth-child(3)>img,
@@ -152,19 +156,22 @@ grid-column: 3/-1;
 }
 
 
-.principal__destaques > :nth-child(5) {
-   grid-column: 1/2; 
+.principal__destaques> :nth-child(5) {
+   grid-column: 1/2;
    margin: 4% 2% 0 10%;
-   
+
 }
-.principal__destaques > :nth-child(6) {
+
+.principal__destaques> :nth-child(6) {
    grid-column: 2/3;
    margin: 4% 10% 0 2%;
 }
-.principal__destaques > :nth-child(7) {
+
+.principal__destaques> :nth-child(7) {
    margin: 4% 2% 0 10%;
    grid-column: 3/4;
 }
+
 .principal__destaques> :nth-child(8) {
    margin: 4% 10% 0 2%;
    grid-column: 4/-1;
@@ -179,12 +186,12 @@ grid-column: 3/-1;
    font-size: 0.8em;
 }
 
-.principal__destaques>:nth-child(5)> img,
-.principal__destaques>:nth-child(6)> img,
-.principal__destaques>:nth-child(7)> img,
-.principal__destaques>:nth-child(8)> img {
+.principal__destaques>:nth-child(5)>img,
+.principal__destaques>:nth-child(6)>img,
+.principal__destaques>:nth-child(7)>img,
+.principal__destaques>:nth-child(8)>img {
    width: 100%;
-  
+
 }
 
 .destaques label {
@@ -199,7 +206,7 @@ grid-column: 3/-1;
 .principal__destaques>:nth-child(6)>.legenda label,
 .principal__destaques>:nth-child(7)>.legenda label,
 .principal__destaques>:nth-child(8)>.legenda label {
-   color:#004861;
+   color: #004861;
    font-weight: 10000;
 }
 
@@ -208,6 +215,7 @@ grid-column: 3/-1;
    font-size: 1.2em;
    font-weight: bolder;
 }
+
 /* -------------------imagens carregadas sec1 FIM --------------------- */
 .faixa-cinza {
    width: 100%;
@@ -217,62 +225,66 @@ grid-column: 3/-1;
    border-top: 0.5px solid #cccccc;
    border-bottom: 0.5px solid #cccccc;
    margin: 2% 0;
- }
+}
 
- .faixa-cinza input {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 8%;
-    background-color:#cccccc;
-    border: 0.5px solid #6d6d6d;
-    
- }
+.faixa-cinza input {
+   width: 80%;
+   margin: auto;
+   padding-bottom: 8%;
+   background-color: #cccccc;
+   border: 0.5px solid #6d6d6d;
 
- ::-webkit-input-placeholder {
+}
+
+::-webkit-input-placeholder {
    color: #6d6d6d;
    text-transform: uppercase;
    font-size: 0.8em;
    padding: 2% 1%;
- }
-
- /* -------------------imagens carregadas sec2e3--------------------- */
-.principal__titulo {
-     color:#004861;
-     text-transform: uppercase;
-     font-size: 1.6em;
-     margin-left: 1.2%;
 }
- .principal__brasil, .principal__mundo {
-    display: flex;
-    margin:0 8%;
-    justify-content: center;
- }
 
- .brasil, .mundo {
-      padding: 1%;
-    flex-basis: content;
-    
- }
+/* -------------------imagens carregadas sec2e3--------------------- */
+.principal__titulo {
+   color: #004861;
+   text-transform: uppercase;
+   font-size: 1.6em;
+   margin-left: 1.8%;
+}
 
- .legenda {
-    width: 100%;
-    font-size: 0.8em;
- }
+.principal__brasil,
+.principal__mundo {
+   display: flex;
+   margin: 0 1%;
+   justify-content: center;
+}
 
- .legenda label {
-    color:#004861;
-    text-transform: uppercase;
-    font-size: 0.7em;
- }
+.brasil,
+.mundo {
+   padding: 1%;
+   flex-basis: content;
+
+}
+
+.legenda {
+   width: 100%;
+   font-size: 0.8em;
+}
+
+.legenda label {
+   color: #004861;
+   text-transform: uppercase;
+   font-size: 0.7em;
+}
+
 /* -------------------imagens carregadas sec2e3 FIM--------------------- */
- .faixa-branca {
-    display: flex;
-    justify-content:flex-end;
-    text-transform: uppercase;
-    color:#004861;
-    font-size: 1.2em;
-    border-bottom: solid 0.5px #cccccc;
-    border-top: solid 0.5px #cccccc;
-    padding: 0.5%;
-    margin: 1% 2% 5%;
- }
+.faixa-branca {
+   display: flex;
+   justify-content: flex-end;
+   text-transform: uppercase;
+   color: #004861;
+   font-size: 1.2em;
+   border-bottom: solid 0.5px #cccccc;
+   border-top: solid 0.5px #cccccc;
+   padding: 0.5%;
+   margin: 1% 2% 5%;
+}
