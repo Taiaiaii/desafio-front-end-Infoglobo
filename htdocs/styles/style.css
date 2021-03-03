@@ -29,8 +29,8 @@ body {
    background-color: #004861;
    color: white;
    text-align: center;
-   padding: 2%;
-   font-size: 3.5em;
+   padding: 1%;
+   font-size: 4em;
    position: relative;
    
 }
@@ -139,8 +139,9 @@ grid-column: 3/-1;
 .principal__destaques>:nth-child(3)>.legenda,
 .principal__destaques>:nth-child(4)>.legenda {
    width: 50%;
+   height: 100%;
    padding: 2%;
-   font-size: 0.8em;
+   font-size: 1.1em;
    line-height: 1.2em; 
 }
 
@@ -234,7 +235,7 @@ grid-column: 3/-1;
    padding: 2% 1%;
  }
 
- /* -------------------imagens carregadas sec2--------------------- */
+ /* -------------------imagens carregadas sec2e3--------------------- */
 .principal__titulo {
      color:#004861;
      text-transform: uppercase;
@@ -263,7 +264,7 @@ grid-column: 3/-1;
     text-transform: uppercase;
     font-size: 0.7em;
  }
-
+/* -------------------imagens carregadas sec2e3 FIM--------------------- */
  .faixa-branca {
     display: flex;
     justify-content:flex-end;
