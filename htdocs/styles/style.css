@@ -1,0 +1,75 @@
+body {
+   font-family: 'Rubik',
+   sans-serif;
+    font-weight: 1000;
+}
+.strong {
+   font-family: 'Titillium Web',
+   sans-serif;
+   font-size: 1em;
+   line-height: 1em;
+   font-weight: 1000;
+   padding:1%;
+}
+
+.principal {
+   height: 20vh;
+}
+
+.cabecalho__titulo,
+.rodape__titulo{
+   text-transform: uppercase;
+   letter-spacing: -3px;
+}
+
+.cabecalho {
+   background-color: #004861;
+   color: white;
+   text-align: center;
+   padding: 2%;
+   font-size: 3.5em;
+   position: relative;
+   
+}
+
+.cabecalho__dois-pontos {
+   color:#d5e11f;
+  
+}
+
+.cabecalho__menu {
+   position: absolute;
+   left: 2%;
+   top: 42%;
+
+   
+}
+
+.cabecalho__menu rect {
+   fill: aliceblue;
+}
+
+.rodape {
+   background-color: #d5e11f;
+   color:#004861;
+   display: flex;
+   justify-content: space-between;
+   padding: 5%;
+   font-size:2em;
+  
+}
+
+.rodape__dois-pontos {
+   color: white;
+   margin-left: 5px;
+}
+
+.rodape__infos {
+   color: black;
+   font-size: 0.3em;
+   text-align: right;
+   padding-top: 2%;
+   font-family: 'Roboto',
+   sans-serif;
+   text-transform: uppercase;
+}
