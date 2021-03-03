@@ -12,7 +12,7 @@ async function loadingImages() {
     for (let post of destaques.data) {
         const divPost = document.createElement('div');
         divPost.innerHTML = `
-        <img src = "assets/media/${post.image}">
+        <img src = "media/${post.image}">
         <div class="legenda">
         <label> ${post.label}</label><br>  
         <h1 class="legenda__titulo">${post.title}</h1>   
@@ -28,7 +28,7 @@ async function loadingImages() {
     for (let post of brasil.data) {
         const divPost = document.createElement('div');
         divPost.innerHTML = `
-        <img src = "assets/media/${post.image}">
+        <img src = "media/${post.image}">
         <div class="legenda">
         <label> ${post.label}</label><br>  
         <h1 class="legenda__titulo">${post.title}</h1>   
@@ -44,7 +44,7 @@ async function loadingImages() {
         for (let post of mundo.data) {
             const divPost = document.createElement('div');
             divPost.innerHTML = `
-        <img src = "assets/media/${post.image}">
+        <img src = "media/${post.image}">
         <div class="legenda">
         <label> ${post.label}</label><br>  
         <h1 class="legenda__titulo">${post.title}</h1>   
