@@ -2,6 +2,7 @@ body {
    font-family: 'Rubik',
    sans-serif;
     font-weight: 1000;
+
 }
 .strong {
    font-family: 'Titillium Web',
@@ -75,7 +76,7 @@ body {
    sans-serif;
    text-transform: uppercase;
 }
-/* -------------------imagens carregadas --------------------- */
+/* -------------------imagens carregadas sec1--------------------- */
 .principal__destaques {
    display: grid;
    grid-template-columns: repeat(4, 1fr) ;
@@ -101,6 +102,7 @@ body {
 .principal__destaques>:nth-child(1)> img,
 .principal__destaques>:nth-child(2)> img {
  width: 100%;
+ display: block;
 }
 
 .principal__destaques>:nth-child(1)> .legenda,
@@ -151,29 +153,21 @@ grid-column: 3/-1;
 
 .principal__destaques > :nth-child(5) {
    grid-column: 1/2; 
+   margin: 4% 2% 0 10%;
    
 }
 .principal__destaques > :nth-child(6) {
-
-
    grid-column: 2/3;
+   margin: 4% 10% 0 2%;
 }
 .principal__destaques > :nth-child(7) {
-
+   margin: 4% 2% 0 10%;
    grid-column: 3/4;
 }
 .principal__destaques> :nth-child(8) {
-
+   margin: 4% 10% 0 2%;
    grid-column: 4/-1;
 
-}
-
-.principal__destaques>:nth-child(5),
-.principal__destaques>:nth-child(6),
-.principal__destaques>:nth-child(7),
-.principal__destaques>:nth-child(8) {
-  margin: 5% 0 0 9%;
-  
 }
 
 .principal__destaques>:nth-child(5)>.legenda,
@@ -209,7 +203,63 @@ grid-column: 3/-1;
 }
 
 .legenda__titulo {
-   padding: 2% 0 5%;
+   padding: 2% 0 3.5%;
    font-size: 1.2em;
    font-weight: bolder;
 }
+/* -------------------imagens carregadas sec1 FIM --------------------- */
+.faixa-cinza {
+   width: 100%;
+   padding: 3%;
+   background-color: #eeeeee;
+   display: flex;
+   border-top: 0.5px solid #cccccc;
+   border-bottom: 0.5px solid #cccccc;
+   margin: 2% 0;
+ }
+
+ .faixa-cinza input {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 8%;
+    background-color:#cccccc;
+    border: 0.5px solid #6d6d6d;
+    
+ }
+
+ ::-webkit-input-placeholder {
+   color: #6d6d6d;
+   text-transform: uppercase;
+   font-size: 0.8em;
+   padding: 2% 1%;
+ }
+
+ /* -------------------imagens carregadas sec2--------------------- */
+.principal__titulo {
+     color:#004861;
+     text-transform: uppercase;
+     font-size: 1.6em;
+     margin-left: 1.2%;
+}
+ .principal__brasil {
+    display: flex;
+    margin:0 8%;
+    justify-content: center;
+ }
+
+ .brasil {
+      padding: 1%;
+    flex-basis: content;
+    
+ }
+
+ .legenda {
+    width: 100%;
+    font-size: 0.8em;
+ }
+
+ .legenda label {
+    color:#004861;
+    text-transform: uppercase;
+    font-size: 0.7em;
+ }

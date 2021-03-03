@@ -91,34 +91,6 @@
 					"title": "Pellentesque blandit condimentum est",
 					"description": "Phasellus vulputate egestas lectus, in viverra lectus",
 					"image": "216x121-11.jpeg"
-				},
-				{
-					"url": "#",
-					"label": "Brasília",
-					"title": "Pellentesque blandit condimentum est",
-					"description": "Phasellus vulputate egestas lectus, in viverra lectus",
-					"image": "216x121-11.jpeg"
-				},
-				{
-					"url": "#",
-					"label": "Lava-a-jato",
-					"title": "Donec varius vehicula nunc, ut dapibus",
-					"description": "Curabitur commodo lectus neque, a lacinia turpis",
-					"image": "216x121-9.jpeg"
-				},
-				{
-					"url": "#",
-					"label": "Comércio",
-					"title": "Cras condimentum fringilla sem vitae",
-					"description": "Nunc aliquet leo sem, nec sagittis velit tempor vitae",
-					"image": "216x121-12.jpeg"
-				},
-				{
-					"url": "#",
-					"label": "Violência",
-					"title": "Proin mollis auctor orci id aliquet",
-					"description": "Donec nec elementum massa. Proin nulla lacus, imperdiet",
-					"image": "216x121-8.jpeg"
 				}
 			]
 		},
