@@ -82,7 +82,7 @@ body {
 .principal__destaques {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: 1fr 0.3fr 0.3fr;
+   grid-template-rows: 1fr 0.5fr 0.3fr;
 
 }
 
@@ -104,7 +104,7 @@ body {
 .principal__destaques>:nth-child(1)>img,
 .principal__destaques>:nth-child(2)>img {
    width: 100%;
-   display: block;
+   
 }
 
 .principal__destaques>:nth-child(1)>.legenda,
@@ -136,7 +136,7 @@ body {
 .principal__destaques>:nth-child(3),
 .principal__destaques>:nth-child(4) {
    display: flex;
-   align-items: stretch;
+   align-items:flex-start;
    margin: 2% 5% 0;
 }
 
@@ -145,8 +145,8 @@ body {
    width: 50%;
    height: 100%;
    padding: 2%;
-   font-size: 1.1em;
-   line-height: 1.2em;
+   font-size: 0.8em;
+   
 }
 
 .principal__destaques>:nth-child(3)>img,
