@@ -38,20 +38,6 @@ html {
 
 }
 
-.cabecalho__menu {
-   position: absolute;
-   left: 2%;
-   top: 32%;
-   width: 42px;
-   height: 14px;
-
-
-}
-
-.cabecalho__menu rect {
-   fill: aliceblue;
-}
-
 .rodape__titulo {
    background-color: #d5e11f;
    color: #004861;
@@ -224,16 +210,13 @@ html {
    padding: 1%;
    margin-bottom: 20%;
  
-
 }
-
 .brasil>img,
 .mundo>img {
    float: left;
    width: 40%;
    margin-right: 1%;
 }
-
 .brasil>.legenda,
 .mundo>.legenda {
    width: 100%;
@@ -246,9 +229,6 @@ html {
    position: absolute;
    bottom: -49px;
 }
-
-
-
 .legenda label {
    color: #004861;
    text-transform: uppercase;
@@ -270,25 +250,36 @@ html {
 
 
 @media screen and (min-width: 1024px) {
-   .rodape {
-      background-color: #d5e11f;
-      color: #004861;
-      display: flex;
-      justify-content: space-between;
-      padding: 5%;
-      font-size: 1em;
+
+   .cabecalho {
+      padding: 3%;
+      font-size: 4em;
    }
 
-   .rodape__dois-pontos {
-      margin-left: 1px;
-   }
+.rodape {
+       display: flex;
+       flex-wrap: nowrap;
+       
+}
+ .rodape__titulo {
 
-   .rodape__infos {
 
-      font-size: 0.4em;
-      text-align: right;
-      padding-top: 2%;
-   }
+    font-size: 2em;
+
+
+ }
+
+ .rodape__dois-pontos {
+    color: white;
+    margin-left: 1px;
+ }
+
+ .rodape__infos {
+    font-size: 0.4em;
+    background-color:#d5e11f;
+    color: black;
+ 
+ }
 
 
 
