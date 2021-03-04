@@ -1,8 +1,8 @@
-body {
+html {
    font-family: 'Rubik',
       sans-serif;
    font-weight: 1000;
-
+   width: 100%;
 }
 
 .strong {
@@ -82,7 +82,7 @@ body {
 .principal__destaques {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: 1fr 0.3fr 0.3fr;
+   grid-template-rows: 1fr 0.5fr 0.3fr;
 
 }
 
@@ -104,7 +104,7 @@ body {
 .principal__destaques>:nth-child(1)>img,
 .principal__destaques>:nth-child(2)>img {
    width: 100%;
-   display: block;
+
 }
 
 .principal__destaques>:nth-child(1)>.legenda,
@@ -136,7 +136,7 @@ body {
 .principal__destaques>:nth-child(3),
 .principal__destaques>:nth-child(4) {
    display: flex;
-   align-items: stretch;
+   align-items: flex-start;
    margin: 2% 5% 0;
 }
 
@@ -145,8 +145,8 @@ body {
    width: 50%;
    height: 100%;
    padding: 2%;
-   font-size: 1.1em;
-   line-height: 1.2em;
+   font-size: 0.8em;
+
 }
 
 .principal__destaques>:nth-child(3)>img,
@@ -287,4 +287,295 @@ body {
    border-top: solid 0.5px #cccccc;
    padding: 0.5%;
    margin: 1% 2% 5%;
+}
+
+@media screen and (max-width: 375px) {
+
+   .cabecalho__titulo,
+   .rodape__titulo {
+      font-family: 'Titillium Web',
+         sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+   }
+
+   .cabecalho {
+      font-size: 1.5em;
+      position: relative;
+      padding: 5%;
+   }
+
+   .cabecalho__menu {
+      width: 20px;
+      height: 12px;
+      top: 37%;
+      left: 5%;
+   }
+
+   .rodape {
+      display: contents;
+      background-color: white;
+   }
+
+   .rodape__titulo {
+      background-color: #d5e11f;
+      font-size: 0.9em;
+      text-align: center;
+      padding: 10%;
+
+   }
+
+   .rodape__infos {
+      background-color: #004861;
+      width: 100%;
+      color: white;
+      font-size: 0.3em;
+      text-align: center;
+      padding: 10%;
+
+   }
+
+   /* ---------------imagens carregadas--------------- */
+   .principal__destaques {
+      display: block;
+   }
+
+   .destaques label {
+      text-transform: uppercase;
+      font-size: 0.7em;
+      padding-bottom: 2%;
+      color: #004861;
+      font-weight: bolder;
+   }
+
+   .principal__destaques>:nth-child(1),
+   .principal__destaques>:nth-child(2) {
+      width: 100%;
+      position: static;
+      margin: 0;
+   }
+
+   .principal__destaques>:nth-child(1)>img,
+   .principal__destaques>:nth-child(2)>img {
+      width: 100%;
+   }
+
+   .principal__destaques>:nth-child(1)>.legenda,
+   .principal__destaques>:nth-child(2)>.legenda {
+      position: static;
+      font-size: 0.8em;
+      line-height: 1.2em;
+      color: black;
+      padding: 2% 5%;
+   }
+
+   .principal__destaques>:nth-child(1)>.legenda>.legenda__titulo,
+   .principal__destaques>:nth-child(2)>.legenda>.legenda__titulo {
+      padding: 1% 0;
+      font-size: 1.1em;
+   }
+
+   .principal__destaques>:nth-child(3) {
+      border-top: 0.5px solid #cccccc;
+
+
+   }
+
+   .principal__destaques>:nth-child(3),
+   .principal__destaques>:nth-child(4) {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      border-bottom: 0.5px solid #cccccc;
+      width: 100%;
+      padding-top: 5%;
+      margin-left: 0;
+
+
+   }
+
+   .principal__destaques>:nth-child(3)>img,
+   .principal__destaques>:nth-child(4)>img {
+      width: 30%;
+   }
+
+   .principal__destaques>:nth-child(3)>.legenda,
+   .principal__destaques>:nth-child(4)>.legenda {
+      width: 60%;
+      font-size: 0.8em;
+      padding: 0 2%;
+
+
+   }
+
+   .principal__destaques>:nth-child(3)>.legenda>.legenda__titulo,
+   .principal__destaques>:nth-child(4)>.legenda>.legenda__titulo {
+      padding: 3% 0;
+      font-size: 1.1em;
+      font-weight: bolder;
+   }
+
+   .principal__destaques>:nth-child(5),
+   .principal__destaques>:nth-child(6),
+   .principal__destaques>:nth-child(7),
+   .principal__destaques>:nth-child(8) {
+      display: flex;
+      width: 100%;
+      border-bottom: 0.5px solid #cccccc;
+      padding: 1% 5% 2%;
+      margin-left: 0;
+      padding-bottom: 10%;
+
+
+   }
+
+   .principal__destaques>:nth-child(5)>img,
+   .principal__destaques>:nth-child(6)>img,
+   .principal__destaques>:nth-child(7)>img,
+   .principal__destaques>:nth-child(8)>img,
+   .brasil>img,
+   .mundo>img {
+      width: 40%;
+      padding: 1%;
+      float: left;
+   }
+
+   .principal__destaques>:nth-child(5)>.legenda,
+   .principal__destaques>:nth-child(6)>.legenda,
+   .principal__destaques>:nth-child(7)>.legenda,
+   .principal__destaques>:nth-child(8)>.legenda,
+   .brasil>.legenda,
+   .mundo>.legenda {
+      width: 70%;
+      font-size: 0.8em;
+      position: relative;
+
+   }
+
+   .principal__destaques>:nth-child(5)>.legenda>p,
+   .principal__destaques>:nth-child(6)>.legenda>p,
+   .principal__destaques>:nth-child(7)>.legenda>p,
+   .principal__destaques>:nth-child(8)>.legenda>p,
+   .brasil>.legenda>p,
+   .mundo>.legenda>p {
+      position: absolute;
+      bottom: -104px;
+      left: -113px;
+      margin-bottom: 10%;
+      padding-bottom: 35%;
+
+   }
+
+   .principal__destaques>:nth-child(5)>.legenda>.legenda__titulo,
+   .principal__destaques>:nth-child(6)>.legenda>.legenda__titulo,
+   .principal__destaques>:nth-child(7)>.legenda>.legenda__titulo,
+   .principal__destaques>:nth-child(8)>.legenda>.legenda__titulo {
+      padding: 4% 0;
+      font-size: 1em;
+      font-weight: bolder;
+   }
+
+   .principal__destaques>:nth-child(8) {
+      border-bottom: none;
+   }
+
+   .faixa-cinza {
+      border: none;
+      background-color: white;
+      padding: 0;
+   }
+
+   .faixa-cinza input {
+      width: 100%;
+      margin: 0 0 2%;
+      padding-bottom: 25%;
+      border-bottom: 0.3px solid #6d6d6d;
+      border-top: 0.5px solid #6d6d6d;
+      border-left: none;
+      border-right: none;
+
+   }
+
+   /* -------------------imagens carregadas sec2e3--------------------- */
+
+   .principal__brasil,
+   .principal__mundo {
+      margin: 0 1%;
+      display: block;
+
+
+   }
+
+   .brasil,
+   .mundo {
+
+      margin-bottom: 13%;
+      padding: 2%;
+   }
+
+   .brasil>img,
+   .mundo>img {
+      width: 50%;
+      margin-bottom: 1%;
+      padding-bottom: 0;
+
+   }
+
+   .brasil>.legenda,
+   .mundo>.legenda {
+      width: 100%;
+      font-size: 0.8em;
+
+   }
+
+   .brasil>.legenda>p,
+   .mundo>.legenda>p {
+      bottom: -205px;
+      left: 3px;
+      margin-bottom: 20%;
+
+
+   }
+
+   .principal__brasil>:nth-child(2)>.legenda>p{
+      margin-bottom: 24%;
+   }
+
+    .principal__brasil>:nth-child(3)>.legenda>p {
+       margin-bottom: 24%;
+    }
+
+    .principal__brasil>:nth-child(4)>.legenda>p,
+   .principal__mundo>:nth-child(2)>.legenda>p {
+      margin-bottom: 23%;
+   }
+
+   .principal__brasil>:nth-child(3)>.legenda>p,
+   .principal__mundo>:nth-child(3)>.legenda>p,
+   .principal__mundo>:nth-child(4)>.legenda>p {
+      margin-bottom: 28%;
+   }
+
+   .principal__titulo {
+      font-size: 1.5em;
+      padding-left: 1%;
+   }
+
+
+
+
+
+   /* -------------------imagens carregadas sec2e3 FIM--------------------- */
+   .faixa-branca {
+      display: flex;
+      justify-content: flex-end;
+      text-transform: uppercase;
+      color: #004861;
+      font-size: 1.2em;
+      border-bottom: solid 0.5px #cccccc;
+      border-top: solid 0.5px #cccccc;
+      padding: 0.5%;
+      margin: 1% 2% 5%;
+   }
+
 }

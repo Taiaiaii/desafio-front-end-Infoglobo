@@ -1,7 +1,8 @@
 # Desafio Front-end Infoglobo
-Desafio  da __Infoglovbo__ encontrada  [GitHub](https://github.com/Infoglobo/desafio-front-end) - para treinar e me divertir ;)
 
+Desafio  da __Infoglobo__ encontrada  [GitHub](https://github.com/Infoglobo/desafio-front-end) - para treinar e me divertir ;)
 ## Como rodar
+
 
 ```
 git clone git@github.com:Taiaiaii/desafio-front-end-Infoglobo.git
@@ -19,6 +20,6 @@ Rode a aplicação com `npm start`
 A aplicação estará acessível através do endereço http://localhost:3000/
 ```
 
-## Deploy
+### Deploy
 
-Deployado no gitHub pages. [LINK](https://taiaiaii.github.io/desafio-front-end-Infoglobo/)
+Deployado no gitHub pages [LINK](https://taiaiaii.github.io/desafio-front-end-Infoglobo/)
