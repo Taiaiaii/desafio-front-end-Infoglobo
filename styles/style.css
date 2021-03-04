@@ -289,7 +289,7 @@ html {
    margin: 1% 2% 5%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
 
    .cabecalho__titulo,
    .rodape__titulo {
