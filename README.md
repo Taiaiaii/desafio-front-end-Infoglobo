@@ -1,6 +1,6 @@
 # Desafio Front-end Infoglobo
 
-Desafio  da __Infoglobo__ encontrada  [GitHub](https://github.com/Infoglobo/desafio-front-end) - para treinar e me divertir ;)
+Desafio  da __Infoglobo__ encontrado  [GitHub](https://github.com/Infoglobo/desafio-front-end) - para treinar e me divertir ;)
 ## Como rodar
 
 
